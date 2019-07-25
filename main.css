@@ -1,0 +1,54 @@
+nav { 
+width: 1200px; 
+margin: 0 auto; 
+} 
+nav:before { 
+content: ""; 
+display: block; 
+height: 50px; 
+width: 100%; 
+background: #345679; 
+position: absolute; 
+left: 0; 
+z-index: -21; 
+} 
+ul { 
+margin: 0; 
+padding: 10; 
+list-style: none; 
+height: 50px; 
+} 
+ul li { 
+float: left; 
+} 
+ul li a { 
+color: #fff; 
+display: block; 
+height: 50px; 
+padding: 0 70px; 
+text-transform: uppercase; 
+text-decoration: none; 
+line-height: 50px; 
+} 
+ul li a:hover { 
+background: #d34643; 
+} 
+#hi {
+	background-color:black;
+}
+hr {
+	border: none;
+	background-color: red;
+	height: 5px;
+}
+body {
+	background-color: black;
+}
+#baton {
+	background-color: red;
+	font-size: 50px;
+}
+footer {
+	background-color: gray;
+	padding: 30px;
+}
