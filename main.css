@@ -1,49 +1,13 @@
-
-	padding: 0;
-	margin: 0;
-	font-family: Tahoma, serif;
-}
-header, footer {
-background: #424242;
-padding: 10px 0;
-}
-h1 {
-	text-align: center;
-	color: #fff;
-	font-size: 10px;
-}
-div {
+nav {
 	width: 1200px;
 	margin: 0 auto;
-	overflow: hidden;
 }
-aside, main {
-		width: 50%;
-	float: left;
-}
-aside img {
-	display: block;
-	width: 80%;
-	margin: 0 auto;
-}
-#fone {
-	background-color: #F6F2F2;
-}
-#baton {
-    background: #FF2D2D; /* Синий цвет фона */ 
-    color: white; /* Белые буквы */ 
-    font-size: 30px; /* Размер шрифта в пунктах */
-   }
-  nav {
-  	width: 960px;
-  	margin: 0 auto;
-  }
 nav:before {
-	content: '';
+	content: "";
 	display: block;
 	height: 50px;
 	width: 100%;
-	background: #000;
+	background:#20B2AA;
 	position: absolute;
 	left: 0;
 	z-index: -1;
@@ -54,79 +18,94 @@ ul {
 	list-style: none;
 	height: 50px;
 }
-ul li{
+ul li {
 	float: left;
 }
-ul li a{
-	color: #fff;
-	display: block;
-	height: 50px;
-	padding: 0 30px;
-	text-transform: uppercase;
-	text-decoration: none;
-	line-height: 50px;
+ul li a {
+color: #fff;
+height: 50px;	
+padding: 0 70px;
+display: block;
+line-height: 50px;
+text-transform: uppercase;
+text-decoration: none;
 }
 ul li a:hover {
-	background: #d34d43;
+	background-color: green;
 }
-#buton {
-    background: blue; /* Синий цвет фона */ 
-    color: white; /* Белые буквы */ 
-    font-size: 30px; /* Размер шрифта в пунктах */
-   }
-   table.text  {
-    width:  100%; /* Ширина таблицы */
-    border-spacing: 0; /* Расстояние между ячейками */
-   }
-   table.text td {
-    width: 50%; /* Ширина ячеек */
-    vertical-align: top; /* Выравнивание по верхнему краю */
-   }
-   td.rightcol { /* Правая ячейка */ 
-    text-align: right; /* Выравнивание по правому краю */
-   }
-   #vita {
-   	background-color:pink;
-   }
-   #team {
-   	margin-left: 10px;
-   }
-   .thumb img  {
-    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
-    padding: 15px; /* Расстояние от картинки до рамки */
-    background: #666; /* Цвет фона */
-    margin-right: 10px; /* Отступ справа */
-    margin-bottom: 10px; /* Отступ снизу */
-   }
-   #fone2 {
-   	background: gray;
-   }
-   #baaton {
-    background: red; /* Синий цвет фона */ 
-    color: white; /* Белые буквы */ 
-    font-size: 30px; /* Размер шрифта в пунктах */
-   }
-    hr {
-    border: none; /* Убираем границу */
-    background-color: black; /* Цвет линии */
-    color: red; /* Цвет линии для IE6-7 */
-    height: 5px; /* Толщина линии */
-   }
-    #baaaton {
-    background: red; /* Синий цвет фона */ 
-    color: white; /* Белые буквы */ 
-    font-size: 50px; /* Размер шрифта в пунктах */
-   }
-   #baaaaton {
-   	background: red;
-   	color: white;
-   	font-size: 15px;
-   }
-   #fone3 {
-   	background: gray;
-
-   }
-#fone10 {
-	background-color: grey;
-}	
-	
+.colortext {
+	color:orange;
+}
+#mainIcon {
+	background: #20B2AA;
+}
+#baton {
+	font-size: 25px;
+	background:orange;
+	border: none;
+	color: #fff;
+}
+#baton2 {
+	font-size: 25px;
+		background:black;
+	border: none;
+	color: #fff;
+}
+#center {
+	text-align: center;
+}
+#ssilki {
+	text-align: center;
+}
+#navy {
+	text-align: center;
+	background-color: navy;
+}
+#baton3 {
+	font-size: 25px;
+	background: #008080;
+	border: none;
+	margin: 25px;
+}
+#baton4 {
+	font-size: 25px;
+	background: #008080;
+	border: none;
+	margin: 25px;
+}
+#baton5 {
+	font-size: 25px;
+	background-color: blue;
+	border: none;
+	margin: 25px;
+}
+#baton6 {
+	font-size: 25px;
+	background-color: blue;
+	border: none;
+	margin: 25px;
+}
+#ez {
+	background-color: blue;
+}
+#baton7 {
+	font-size: 25px;
+	background: #000;
+	color: #fff;
+	margin: 25px;
+	text-align: center;
+}
+#gg {
+	background-color: gray;
+}
+#contact {
+	background-color: navy;
+}
+#ggw {
+	background-color: pink;
+}
+footer {
+	background-color: gray;
+	margin: 0px;
+	padding: 20px;
+}
